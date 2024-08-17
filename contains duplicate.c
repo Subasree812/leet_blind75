@@ -20,7 +20,7 @@ bool containsDuplicate(int* nums, int numsSize) {
     }
 
     if(flag == 1)
-        printf("true");
+        return true;
     else
-        printf("false");
+        return false;
 }
